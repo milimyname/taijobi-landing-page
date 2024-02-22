@@ -7,7 +7,7 @@ const Scene = () => {
   useEffect(() => {
     if (canvasRef.current) {
       const app = new Application(canvasRef.current);
-      app.load("https://prod.spline.design/aQOqhhQpIIgt0gpK/scene.splinecode");
+      app.load("https://prod.spline.design/Rmiq8UgF2CfvUdjr/scene.splinecode");
     }
   }, []);
 
